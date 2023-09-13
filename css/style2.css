@@ -1,0 +1,115 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    width: 50%;
+    margin: 10px auto;
+    text-align: center;
+    padding: 40px 40px;
+    border: 1px solid black;
+    background-color: #fff;
+}
+
+.title h2 {
+    white-space: 2px;
+    letter-spacing: 2px;
+}
+
+.review h4 {
+    padding: 10px;
+}
+
+.review img {
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.review p {
+    color: gray;
+    letter-spacing: 2px;
+}
+
+.title {
+    padding: 20px;
+}
+
+.btn-container {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.btn-container button {
+    padding: 5px 10px;
+    border: none;
+    font-size: 30px;
+    background-color: transparent;
+    color: #fff;
+    background-color: black;
+}
+
+#random-btn {
+    border: none;
+    padding: 10px;
+    color: #fff;
+    background-color: black;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: black;
+    display: none;
+}
+
+.add-review {
+    width: 50%;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+}
+
+input:not(input[type="submit"]), textarea {
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+input[type="submit"] {
+    display: block;
+    position: absolute;
+    right: 10px;
+    padding: 5px 10px;
+    border: 2px solid white;
+    color: #fff;
+    background-color: transparent;
+}
+
+#cancel {
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    padding: 5px 10px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 30px;
+}
